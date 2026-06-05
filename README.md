@@ -106,7 +106,7 @@ Média de vinhos aprovados com este filtro: 0.87
 ##  Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/wine-approval-analysis.git
+git clone https://github.com/permafrost22/wine-approval-analysis.git
 cd wine-approval-analysis
 pip install pandas numpy matplotlib seaborn missingno
 ```
