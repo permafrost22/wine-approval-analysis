@@ -1,11 +1,5 @@
 #  Wine Approval Analysis — Seleção de Features por Faixa
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.13-4c72b0)
-![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)
-
 > Análise exploratória e seleção supervisionada de faixas de variáveis físico-químicas que maximizam a taxa de aprovação de vinhos.
 
 ---
