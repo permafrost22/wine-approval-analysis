@@ -1,4 +1,4 @@
-# 🍷 Wine Approval Analysis — Seleção de Features por Faixa
+#  Wine Approval Analysis — Seleção de Features por Faixa
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?logo=pandas)
@@ -10,31 +10,31 @@
 
 ---
 
-## 📌 Objetivo
+##  Objetivo
 
 Identificar, para cada variável físico-química de um vinho, **qual faixa de valores está associada à maior proporção de vinhos aprovados**, com controle mínimo de representatividade (n ≥ 100 amostras por faixa).
 
 ---
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
-📦 wine-approval-analysis
- ┣ 📂 Aula 7 - 2024/
- ┃ ┣ 📄 transf_wine_treino.csv
- ┃ ┗ 📄 transf_wine_teste.csv
- ┣ 📂 images/
- ┃ ┣ 🖼️ pairplot.png
- ┃ ┣ 🖼️ heatmap_correlacao.png
- ┃ ┗ 🖼️ scatter_acidity_density.png
- ┣ 📄 analise_vinhos.py
- ┣ 📄 graficos.py
- ┗ 📄 README.md
+ wine-approval-analysis
+ ┣  Aula 7 - 2024/
+ ┃ ┣  transf_wine_treino.csv
+ ┃ ┗  transf_wine_teste.csv
+ ┣  images/
+ ┃ ┣  pairplot.png
+ ┃ ┣  heatmap_correlacao.png
+ ┃ ┗  scatter_acidity_density.png
+ ┣  analise_vinhos.py
+ ┣  graficos.py
+ ┗  README.md
 ```
 
 ---
 
-## 📊 Análise Exploratória
+##  Análise Exploratória
 
 ### Relação entre variáveis por tipo de vinho
 
@@ -60,7 +60,7 @@ Scatter plot que evidencia a relação entre `fixed acidity` e `density`, colori
 
 ---
 
-## ⚙️ Como funciona o pipeline
+##  Como funciona o pipeline
 
 O script `analise_vinhos.py` executa 6 passos para cada variável numérica:
 
@@ -77,7 +77,7 @@ A função `seleciona_faixa()` encapsula esse pipeline e é aplicada a **todas a
 
 ---
 
-## 📐 Parâmetros da função `seleciona_faixa`
+##  Parâmetros da função `seleciona_faixa`
 
 ```python
 seleciona_faixa(dados, coluna, min_vinhos=100, faixas=10)
@@ -92,7 +92,7 @@ seleciona_faixa(dados, coluna, min_vinhos=100, faixas=10)
 
 ---
 
-## 📊 Exemplo de saída
+##  Exemplo de saída
 
 ```
 coluna       faixa              contagem   fração vinhos aprovados
@@ -109,7 +109,7 @@ Média de vinhos aprovados com este filtro: 0.87
 
 ---
 
-## 🔧 Instalação
+##  Instalação
 
 ```bash
 git clone https://github.com/seu-usuario/wine-approval-analysis.git
@@ -119,7 +119,7 @@ pip install pandas numpy matplotlib seaborn missingno
 
 ---
 
-## ▶️ Execução
+##  Execução
 
 ```bash
 # Análise de features
@@ -131,7 +131,7 @@ python graficos.py
 
 ---
 
-## 📦 Dependências
+##  Dependências
 
 ```txt
 pandas>=1.5
@@ -143,6 +143,6 @@ missingno>=0.5
 
 ---
 
-## 📄 Licença
+##  Licença
 
 MIT
